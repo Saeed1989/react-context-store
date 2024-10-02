@@ -1,5 +1,9 @@
 How To Build a Redux-Like Store With React Context and Hooks
 
+Use Context and Hooks for global state management.
+Implement authentication using global state.
+Configure routing with public and private routes.
+
 ## Available Scripts
 
 In the project directory, you can run:
