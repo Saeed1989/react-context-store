@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import {
-  useTodoContext,
+  useNoteNoteContext,
   addTodo,
   removeTodo,
   clearAll
-} from "../contexts/TodoContext";
+} from "../contexts/NoteContext";
 
 export function NewItem() {
   const [text, setText] = useState("");
-  const { dispatch } = useTodoContext();
+  const { dispatch } = useNoteNoteContext();
 
   return (
     <div className="Item">
@@ -24,7 +24,7 @@ export function NewItem() {
 }
 
 export function ItemList() {
-  const { items, dispatch } = useTodoContext();
+  const { items, dispatch } = useNoteNoteContext();
 
   return (
     <>
